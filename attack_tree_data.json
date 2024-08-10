@@ -1,0 +1,57 @@
+{
+    "nodes": [
+        {
+            "item": "Root Attack",
+            "impact": 9,
+            "probability": 8,
+            "subnodes": [
+                {
+                    "item": "Physical Access",
+                    "impact": 7,
+                    "probability": 6,
+                    "subnodes": [
+                        {
+                            "item": "Break into Building",
+                            "impact": 8,
+                            "probability": 7
+                        },
+                        {
+                            "item": "Tailgating",
+                            "impact": 5,
+                            "probability": 4
+                        }
+                    ]
+                },
+                {
+                    "item": "Cyber Attack",
+                    "impact": 9,
+                    "probability": 9,
+                    "subnodes": [
+                        {
+                            "item": "Phishing",
+                            "impact": 6,
+                            "probability": 5
+                        },
+                        {
+                            "item": "Malware",
+                            "impact": 8,
+                            "probability": 7,
+                            "subnodes": [
+                                {
+                                    "item": "Ransomware",
+                                    "impact": 9,
+                                    "probability": 8
+                                },
+                                {
+                                    "item": "Spyware",
+                                    "impact": 6,
+                                    "probability": 6
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
